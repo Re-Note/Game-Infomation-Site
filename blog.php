@@ -65,8 +65,8 @@
                                 if(isset($_SESSION['id'])) {
                                     if($_SESSION['id'] == $blog['id']) {
                             ?>
-                                        <button class="btn btn-secondary" onclick="location.href='blog1mod.php?no=<?php=$blog['no'];?>'">수정</button>
-                                        <button class="btn btn-secondary" onclick="location.href='blog1delete.php?no=<?php=$blog['no'];?>'">삭제</button>
+                                        <button class="btn btn-secondary" onclick="location.href='blog1mod.php?no=<?=$blog['no'];?>'">수정</button>
+                                        <button class="btn btn-secondary" onclick="location.href='_blog1delete.php?no=<?=$blog['no'];?>'">삭제</button>
                             <?php 
                                     }
                                 } 
