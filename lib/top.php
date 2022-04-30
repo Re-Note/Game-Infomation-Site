@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>ReNote Game Infomation Site</title>
+    <title>ReNote Infomation Site</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -90,6 +90,7 @@
                                     </li>
                                     <li><a href="event.php">이벤트</a></li>
                                     <li><a href="blog.php">블로그</a></li>
+                                    <li><a href="bbs.php">게시판</a></li>
                                     <li><a href="contact.php">컨택트</a></li>
                                 </ul>
 
@@ -103,7 +104,6 @@
                                         <?php } else { ?>
                                             <a href="login.php" id="loginBtn">Login</a>
                                             <a href="join.php"> / Register</a>
-                                                
                                         <?php } ?>
                                     </div>
 

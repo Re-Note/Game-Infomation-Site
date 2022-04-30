@@ -1,5 +1,5 @@
 <?php
-require('_conn.php');
+    require('_conn.php');
     $sql = "SELECT * FROM `user` WHERE id='$id'";
     $result = mysqli_query($conn, $sql);
     foreach($result as $user) {
